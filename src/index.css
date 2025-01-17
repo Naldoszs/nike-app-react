@@ -1,3 +1,4 @@
+/* import two fonts */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
 
@@ -54,5 +55,9 @@
 
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
+  }
+
+  .red {
+    background-color: red;
   }
 }
